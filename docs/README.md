@@ -1,3 +1,3 @@
-# Headline
+# Introduce
 
-> An awesome project.
+> An awesome document site.

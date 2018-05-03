@@ -1,10 +1,8 @@
-
-
 ## FORK
 
 1. 登录GITHUB
 
-2. 进入 [TTT](http://106.15.33.239:8080/job/tools-abf-service/32/ )项目地址 `https://github.com/shiyunlai/TTT`，点击右上角Fork![1524792327387](../image/1524792327387.png)
+2. 进入 [TTT](https://github.com/shiyunlai/TTT) 项目GITHUB地址 ，点击右上角Fork![1524792327387](../image/1524792327387.png)
 
 3. 成功后就会跳转到fork后自己的仓库中，这时该项目就属于自己了。
 

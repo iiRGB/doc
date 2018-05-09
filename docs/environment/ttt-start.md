@@ -4,7 +4,7 @@
 
 1. 安装GIT环境，使用clone命令获取代码，或者到GITHUB下载zip包
 
-``` shell
+``` git
 git clone https://github.com/shiyunlai/TTT.git
 ```
 

@@ -4,7 +4,7 @@
 
 ## 工作
 
-**ABF**  [前端页面](http://139.196.159.199:8080/abf)  |  [API文档](http://139.196.159.199:18080/swagger-ui.html)  |  [原型设计](http://www.bronsp.com:8000/ABF2018/start.html)  |  ![gitee](..\image\icon\gitee.png)[代码地址](https://gitee.com/shiyunlai/TTT)
+**ABF**  [前端页面](http://139.196.159.199:8080/abf)  |  [API文档](http://139.196.159.199:18080/swagger-ui.html)  |  [原型设计](http://www.bronsp.com:8000/ABF2018/start.html)  |  ![gitee](..\image\icon\gitee.png) [代码地址](https://gitee.com/shiyunlai/TTT)
 
 **高级清单** [前端页面](http://139.196.159.199:8080/senior)  |  [API文档](http://139.196.159.199:28080/swagger-ui.html)  |  [原型设计](http://www.bronsp.com:8000/senior/index.html) |  ![gitee](..\image\icon\gitee.png) [代码地址](https://gitee.com/shiyunlai/TTT)
 
@@ -16,7 +16,7 @@
 
 **TTT**  ![eureka](..\image\icon\eureka.png)[eureka](http://106.15.103.14:18000)  
 
-**CTP**  ![eureka](..\image\icon\eureka.png)[eureka](https://www.brons.top:28001/)  |  ![jenkins](..\image\icon\jenkins.png) [Jenkins](http://222.73.218.44:8091/)  |  ![sonar](..\image\icon\sonar.png) [Sonar](http://222.73.218.44:9000/) | [TMS](https://www.brons.top/tms) | [AMC](https://www.brons.top/amc) |  ![elk](..\image\icon\elk.png) [ELK](https://log.brons.top:15601)
+**CTP**  ![eureka](..\image\icon\eureka.png)[eureka](https://www.brons.top:28001/)  |  ![jenkins](..\image\icon\jenkins.png) [Jenkins](http://222.73.218.44:8091/)  |  ![sonar](..\image\icon\sonar.png) [Sonar](http://222.73.218.44:9000/) | [TMS](https://www.brons.top/tms) | [AMC](https://www.brons.top/amc) |  ![elk](..\image\icon\elk.png) [ELK](https://log.brons.top:15601) |  ![Admin](..\image\icon\admin.png) [监控](https://www.brons.top:21104/#/applications)
 
 **文档**  [Mybatis-plus](http://mp.baomidou.com)
 

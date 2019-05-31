@@ -12,7 +12,7 @@
 
 ​	 [PRO-前端PC](http://a.ydmhao.com:8090/keppel)  |  [PRO-前端APP](http://a.ydmhao.com:8090/keppel/w/www/index.html)  | [PRO-APP下载](http://a.ydmhao.com:8090/download/app-keppel-1.0.apk)   |  [文档说明](http://www.bronsp.com:8060/index.php?s=/17)
 
-**工具**  [MySqlAdmin](http://139.196.145.67/phpmyadmin/index.php)  |  [ShowDoc](http://www.bronsp.com:8060/index.php?s=/home/user/login)  |  [禅道](http://106.15.33.239/zentao)  |  ![gitlab](..\image\icon\gitlab.png) [Gitlab](http://222.73.218.38:8090) 
+**工具**  [MySqlAdmin](http://139.196.145.67/phpmyadmin/index.php)  |  [ShowDoc](http://www.bronsp.com:8060/index.php?s=/home/user/login)  |  [禅道](http://106.15.33.239/zentao)  |  ![gitlab](..\image\icon\gitlab.png) [Gitlab](http://222.73.218.38:8090) |  ![showdoc](..\image\icon\showdoc.png) [ShowDoc](http://www.bronsp.com:8060/index.php)
 
 **TTT**  ![eureka](..\image\icon\eureka.png)[eureka](http://106.15.103.14:18000)  
 

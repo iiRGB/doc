@@ -15,8 +15,8 @@
 </head>
 <body>
   <nav>
-    <a id="theme_light"><i class="iconfont icon-sun" style="cursor: pointer;"></i></a>&nbsp;&nbsp;
-    <a id="theme_dark" ><i class="iconfont icon-moon" style="cursor: pointer; "></i></a>
+    <a id="theme_light"><i id="icon_light" class="iconfont icon-sun-select" style="cursor: pointer;"></i></a>&nbsp;&nbsp;
+    <a id="theme_dark" ><i id="icon_dark" class="iconfont icon-moon" style="cursor: pointer; "></i></a>
   </nav>
   <div id="app"></div>
   <script>
@@ -60,8 +60,16 @@
   <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-git.js"></script>
   <script>
-    document.getElementById('theme_light').addEventListener('click', function(){ document.getElementById('theme_css').href = 'css/light.css'; });
-    document.getElementById('theme_dark').addEventListener('click', function(){ document.getElementById('theme_css').href = 'css/dark.css'; });
+    document.getElementById('theme_light').addEventListener('click', function() { 
+      document.getElementById('theme_css').href = 'css/light.css'; 
+      document.getElementById('icon_light').className = 'iconfont icon-sun-select';
+      document.getElementById('icon_dark').className = 'iconfont icon-moon';
+    });
+    document.getElementById('theme_dark').addEventListener('click', function(){ 
+      document.getElementById('theme_css').href = 'css/dark.css'; 
+      document.getElementById('icon_light').className = 'iconfont icon-sun';
+      document.getElementById('icon_dark').className = 'iconfont icon-moon-select';
+    }); 
   </script>
 </body>
 </html>

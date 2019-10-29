@@ -4,6 +4,7 @@
 
 > 个人文档集
 
+[**Enter !**](tools/nav_page)
 [GitHub](https://github.com/iiRGB)
 [Gitee](https://gitee.com/iirgb)
-[Enter!](tools/nav_page)
+

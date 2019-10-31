@@ -11,6 +11,7 @@
   - [TTT启动](environment/ttt-start)
   - [提交流程](environment/fork-pr)
   - [linux安装JDK](environment/setup-jdk)
+  - [linux安装Tomcat](environment/setup-tomcat)
   - [linux相关记录](environment/linux)
   - [apache2部署https](environment/acme-apache2-https)
   

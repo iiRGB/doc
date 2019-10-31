@@ -1,6 +1,6 @@
 # CentOS安装Tomcat
 
-记录一次安装tomcat的过程，以供将来查看。需要JAVA环境，参考[JAVA安装](./setup-jdk)。
+记录一次安装tomcat的过程，以供将来查看。需要JAVA环境，参考[JAVA安装](environment/setup-jdk)。
 
 ## 下载
 

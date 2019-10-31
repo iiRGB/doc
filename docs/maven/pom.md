@@ -4,7 +4,7 @@ POM(Project Object Model) 是用于声明项目的标识和结构、配置构建
 
 POM的描述及配置共分四类：
 
-![1571993876389](C:\Users\ZCH\Documents\blog\iiRGB.github.io\docs\image\1571993876389.png)
+![1571993876389](..\image\1571993876389.png)
 
 - 项目信息
 

@@ -1,6 +1,6 @@
-# 阿里云CentOS安装JDK
+# CentOS安装JDK
 
-要部署的服务多了，原有的服务器撑不住，公司买了新的云服务，之前装过环境，再装一次已经忘了，故记录这一次安装过程，以供将来查看。
+每次装都要翻博客，故记录这一次安装过程，以供将来查看。
 
 ## 安装过程
 
@@ -9,6 +9,8 @@
   登录oracle官网，JDK最新已经到10了，不过这一次我们只用下载JDK 8，所以打开[下载页面](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html，右击复制[下载地址](http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.tar.gz)。
 
 ![1534927465423](../image/1534927465423.png)
+
+>  oracle官网目前限制了下载jdk需要登录，所以需要注册账号登录下载了。相当麻烦！！！
 
 - 登录服务器下载解压
 
@@ -72,7 +74,7 @@
   export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME
   
   source /etc/profile # 配置生效
-  java -verion # java -v 会报错，折腾了十分钟 —。—|||
+  java -verion # java -v 不存在
   java version "1.8.0_181"
   Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
   Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)

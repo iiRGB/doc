@@ -22,7 +22,7 @@ curl  https://get.acme.sh | sh
 
 1. 把 acme.sh 安装到你的 **home** 目录下:
 
-```
+``` bash
 ~/.acme.sh/
 ```
 
@@ -38,7 +38,7 @@ curl  https://get.acme.sh | sh
 
  **acme.sh** 实现了 **acme** 协议支持的所有验证协议. 一般有两种方式验证: http 和 dns 验证. 此处使用了 http 方式。 由于使用的 **apache**服务器, **acme.sh** 还可以智能的从 **apache**的配置中自动完成验证 
 
-``` shell
+``` bash
 acme.sh  --issue  -d mydomain.com -d www.mydomain.com  --apache
 ```
 
@@ -46,13 +46,13 @@ acme.sh  --issue  -d mydomain.com -d www.mydomain.com  --apache
 
 1. 创建目录存储证书
 
-   ``` shell
+   ``` bash
    mkdir -p /etc/apache2/2.2/ssl
    ```
 
 2. 运行amce.sh 安装证书
 
-   ``` shell
+   ``` bash
    acme.sh --install-cert -d online.domain.com \
    --cert-file /etc/apache2/2.2/ssl/online.domain.com-cert.pem \
    --key-file /etc/apache2/2.2/ssl/online.domain.com-key.pem \
@@ -70,7 +70,7 @@ acme.sh  --issue  -d mydomain.com -d www.mydomain.com  --apache
 
    找到`SSLEngine `修改
 
-   ```conf
+   ``` apacheconf
    SSLCertificateFile /etc/apache2/2.2/ssl/online.domain.com-cert.pem
    SSLCertificateKeyFile /etc/apache2/2.2/ssl/online.domain.com-key.pem
    SSLCertificateChainFile "/etc/apache2/2.2/ssl/letsencrypt.pem"
@@ -81,7 +81,7 @@ acme.sh  --issue  -d mydomain.com -d www.mydomain.com  --apache
 
 4. 重启验证
 
-   ``` shell
+   ``` bash
    service apache2 restart
    ```
 
